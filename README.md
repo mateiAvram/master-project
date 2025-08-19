@@ -68,7 +68,7 @@ To run it:
 
 SonarQube can be run both locally and on cloud.
 
-To run it, modify the **sonar-project.properties** file in any individual student implementation located in `experiment/implementaions\e-ticket-` directory
+To run it, modify the **sonar-project.properties** file in any individual student implementation located in `experiment/implementaions/e-ticket-` directory
 
 ## Documentation
 
