@@ -1,0 +1,18 @@
+BEGIN TRANSACTION;
+
+-- Update Ticket A (Artist A) to new price 51.48
+UPDATE tickets
+SET price = 51.48
+WHERE artist = 'Artist A';
+
+-- Update Ticket B (Artist B) to new price 53.33
+UPDATE tickets
+SET price = 53.33
+WHERE artist = 'Artist B';
+
+-- Update Ticket C (Artist C) to new price 66.39
+UPDATE tickets
+SET price = 66.39
+WHERE artist = 'Artist C';
+
+COMMIT;

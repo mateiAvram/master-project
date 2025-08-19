@@ -1,0 +1,52 @@
+/* styles.css */
+#ticket-insert-section {
+   max-width: 400px;
+   margin: 2rem auto;
+   padding: 1rem;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+}
+
+#ticket-insert-section h2 {
+   text-align: center;
+}
+
+.form-group {
+   margin-bottom: 1rem;
+}
+
+.form-group label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 0.5rem;
+}
+
+.form-group input {
+   width: 100%;
+   padding: 0.5rem;
+   border: 1px solid #aaa;
+   border-radius: 4px;
+}
+
+.button-group {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+}
+
+.btn {
+   padding: 0.5rem 1rem;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.btn-reset {
+   border: 1px solid #f00;
+   background: #fff;
+}
+
+.btn-submit {
+   border: none;
+   background: #28a745;
+   color: #fff;
+}

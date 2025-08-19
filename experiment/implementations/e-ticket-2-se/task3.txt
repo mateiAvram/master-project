@@ -1,0 +1,34 @@
+UPDATE tickets
+SET price = ROUND(
+    price
+    * (1
+       + (0.30 * (1 - 3.0/30))
+       + (0.20 * (1 - 100.0/500))
+      )
+    * 1.2
+ , 2)
+WHERE artist = 'Artist A';
+
+UPDATE tickets
+SET price = ROUND(
+    price
+    * (1
+       + (0.30 * (1 - 10.0/30))
+       + (0.20 * (1 - 400.0/1200))
+      )
+    * 1.0
+ , 2)
+WHERE artist = 'Artist B';
+
+UPDATE tickets
+SET price = ROUND(
+    price
+    * (1
+       + (0.30 * (1 - 15.0/30))
+       + (0.20 * (1 - 200.0/1800))
+      )
+    * 1.0
+ , 2)
+WHERE artist = 'Artist C';
+
+

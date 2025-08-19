@@ -1,0 +1,14 @@
+-- Ticket A (VIP)
+UPDATE tickets
+SET price = ROUND(price * 1.716,  2)
+WHERE artist = 'Artist A';
+
+-- Ticket B (Standard)
+UPDATE tickets
+SET price = ROUND(price * 1.3333, 2)
+WHERE artist = 'Artist B';
+
+-- Ticket C (Standard)
+UPDATE tickets
+SET price = ROUND(price * 1.3278, 2)
+WHERE artist = 'Artist C';

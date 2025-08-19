@@ -1,0 +1,11 @@
+UPDATE tickets
+   SET price = 51.48
+ WHERE artist = 'Artist A';
+
+UPDATE tickets
+   SET price = 53.33
+ WHERE artist = 'Artist B';
+
+UPDATE tickets
+   SET price = 66.39
+ WHERE artist = 'Artist C';

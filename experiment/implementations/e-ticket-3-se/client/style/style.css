@@ -1,0 +1,33 @@
+body {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-wrapper {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+    border: 2px solid black;
+    box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.menu-btn {
+    border-radius: 24px !important;
+}
+
+.active {
+    background-color: #fea000 !important;
+    color: black !important;
+}
+
+#tickets-table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 2px 0 black;
+}
